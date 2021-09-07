@@ -33,6 +33,7 @@ allprojects {
         }
 
         google()
+        jcenter() // needed for https://github.com/facebookincubator/fbjni/issues/50
         maven { url 'https://www.jitpack.io' }
     }
 }
